@@ -1,11 +1,11 @@
 div {
-    background-color:darkorchid;
+    background-color:darkcyan;
     height: 150px;
     width: 80;
     padding: 20px;
 }
 body {
-    background-color:darkred;
+    background-color:darkcyan;
 }
 p {
     color: rgb(13, 12, 12);
@@ -17,3 +17,14 @@ text {
 image {
     border: black;
 }
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    }
+    .flex-item {
+    margin: 15px;
+    padding: 20px;
+    background: black;
+    }
